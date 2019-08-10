@@ -1,0 +1,12 @@
+
+  <h1>
+    {{title}} <span class="fa fa-amazon"></span>
+  
+  </h1>
+  <span class='fa fa-heart-o' style='font-size:48px'
+  [class.fa-heart-o]="!isFavorite"
+  [class.fa-heart]="isFavorite"
+  (click)="onClick()"
+
+  ></span>
+  
